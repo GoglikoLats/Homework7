@@ -1,0 +1,44 @@
+@media screen and (min-width: 900px ){
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 1440px;
+        height: 800px;
+        background-color: #F2EAE2;
+        display: flex;
+        
+        
+    }
+    .item{
+        width: 600px;
+        height: 450px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: block;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .detail{
+        margin-left: 10px;
+        display: grid;
+
+    }
+    
+    .paybox{
+        width: 236px;
+        height: 48px;
+    }
+}

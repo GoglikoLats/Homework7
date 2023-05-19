@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-family: 'Fraunces';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #F2EAE2;
+    width: 375px;
+    height: 667px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 343px;
+    height: 611px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
+
+
+}
+
+.image1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image2{
+    display: none;
+}
+
+
+.brand{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #6C7289;
+    letter-spacing: 5px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+h1{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin: 12px 24px;
+    color: #1C232B;
+
+}
+.about{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin: 16px 24px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.newprice{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #3D8168;
+    margin-left: 24.5px;
+
+}
+.oldprice{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+    text-decoration: line-through;
+    margin-left: 19px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.paybox{
+    width: 295px;
+    height: 48px;
+    background-color: #3D8168;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    color: #FFFFFF;
+    width: 14px;
+    height: 16px;
+}
+.payment{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
